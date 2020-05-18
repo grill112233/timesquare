@@ -1,0 +1,14 @@
+
+RewriteEngine on  
+  
+RewriteRule ^index  index.php [NC,L]
+RewriteRule ^login  login.php [NC,L]
+RewriteRule ^signup signup.php [NC,L]
+RewriteRule ^timetable timetable.php [NC,L]
+RewriteRule ^friend friend.php [NC,L]
+RewriteRule ^history1 history1.php [NC,L] 
+RewriteRule ^history2 history2.php [NC,L]
+RewriteRule ^profile profile.php [NC,L] 
+
+ErrorDocument 404 error.php
+

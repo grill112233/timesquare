@@ -1,0 +1,70 @@
+*{
+	box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'PromptSemiBold';
+  src: url('font/PromptSemiBold.ttf');
+}
+			
+body{
+   font-family: 'PromptSemiBold';
+   background-image: none;
+}
+
+@media (min-width:769px){
+	body{
+	   font-family: 'PromptSemiBold';
+	   background-image: url('images/signup/backgroundsignup.png');
+	   background-size: cover;
+	   background-repeat: no-repeat;
+	}
+}
+
+.form{
+	font-family: 'PromptSemiBold';
+	padding: 30px 40px;
+	margin:5%;
+}
+
+.form .form-c{
+	box-sizing: border-box;
+	margin-bottom:10px;
+}
+
+.radius{
+	border-radius:25px;
+}
+
+.btn-signup{
+	border-radius: 15px;
+	border:none;
+	color:white; 
+	padding:10px;
+	background-color:#821EA2; 
+	width:100%;
+	margin-top:20px;
+	outline:none; 
+	font-size:25px;
+}
+
+.col-select{
+	width:33%;
+	float:left;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.form .form-radio{
+	margin-bottom:30px;
+}
+
+.form-back{
+	float:right;
+}
+.back{
+	font-family: 'PromptSemiBold';
+	color:black;
+}
